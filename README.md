@@ -21,9 +21,17 @@ This project uses historical user session data to predict purchase behavior.
 
 ### Dataset
 
-The dataset used is the - <a href=  "https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Online Shoppers Purchasing Intention Dataset</a>, which contains session-based information about visitors on an e-commerce website.
+The dataset used is the  <a href=  "https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Online Shoppers Purchasing Intention Dataset</a>, which contains session-based information about visitors on an e-commerce website.
 
-
+Key features include:
+ - Administrative pages visited
+ - Product-related pages
+ - Bounce rate
+ - Exit rate
+ - Page value
+ - Traffic type
+ - Visitor type
+ - Month of visit
 
 
 
