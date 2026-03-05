@@ -129,6 +129,15 @@ Classification report:
 
 The model performs very well in identifying non-purchasing visitors, while performance on predicting purchasing visitors is moderate due to class imbalance.
 
+### Tools & Technologies
+ - Python
+ - Pandas
+ - NumPy
+ - Matplotlib
+ - Seaborn
+ - Scikit-learn
+ - XGBoost
+ - Jupyter Notebook
 
 ### Key Insights
 
