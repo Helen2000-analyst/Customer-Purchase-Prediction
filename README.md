@@ -56,9 +56,24 @@ EDA was performed to understand user behavior patterns.
 
 ### Correlation Heatmap
 
-<img width="846" height="621" alt="Screenshot (821)" src="https://github.com/user-attachments/assets/b03ddbc1-2db8-4554-829f-8db478b2289c"> images/correlation_heatmap.png </a>
+<img width="846" height="621" alt="Screenshot (821)" src="https://github.com/user-attachments/assets/b03ddbc1-2db8-4554-829f-8db478b2289c" />
 
-Using Seaborn and Matplotlib, several visualizations were created to understand patterns in user behavior:
+Using Seaborn
+
+     i bash
+     ii conda install seaborn
+
+     
+
+ and Matplotlib,
+
+      i bash
+      ii pip install matplotlib
+
+ 
+ 
+ 
+ several visualizations were created to understand patterns in user behavior:
 
  - Correlation heatmaps
 
