@@ -122,7 +122,7 @@ Classification report:
 
  - True Positives: 227
    
-| ------ | Predicted No Purchase | Presicted Purchase |
+| - | Predicted No Purchase | Presicted Purchase |
 |:------|:-------:|------:|
 | Actual No Purchase | 1978 | 77 |
 | Actual Purchase | 184 | 227 |
