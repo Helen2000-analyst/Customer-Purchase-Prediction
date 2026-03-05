@@ -60,20 +60,16 @@ EDA was performed to understand user behavior patterns.
 
 Using Seaborn
 
-     i bash
-     
-     ii conda install seaborn
+      bash
+     i conda install seaborn
 
      
 
  and Matplotlib,
 
-      i bash
-      
-      ii pip install matplotlib
+       bash
+      i pip install matplotlib
 
- 
- 
  
  several visualizations were created to understand patterns in user behavior:
 
@@ -83,5 +79,35 @@ Using Seaborn
 
  - Visitor behavior patterns
 
+3. Feature Engineering
 
+ - Encoded categorical variables such as Month, VisitorType, and Weekend
 
+ - Separated the dataset into features (X) and target variable (y)
+
+ - Split the data into training and testing sets
+
+4. Machine Learning Models
+
+  - Several machine learning models were tested using Scikit-learn and XGBoost:
+
+  - Logistic Regression
+
+  - Random Forest Classifier
+
+  - XGBoost Classifier
+
+Each model was evaluated using classification metrics.
+
+### Model Performance
+
+Best performing model: Logistic Regression
+
+Accuracy: 89%
+
+Classification report:
+
+| Class | Precision | Recall | F1 Score |
+|------|------|------|------|
+| No Purchase | 0.91 | 0.96 | 0.94 |
+| Purchase | 0.75 | 0.55 | 0.63 |
