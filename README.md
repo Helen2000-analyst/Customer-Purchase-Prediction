@@ -61,6 +61,7 @@ EDA was performed to understand user behavior patterns.
 Using Seaborn
 
      i bash
+     
      ii conda install seaborn
 
      
@@ -68,6 +69,7 @@ Using Seaborn
  and Matplotlib,
 
       i bash
+      
       ii pip install matplotlib
 
  
