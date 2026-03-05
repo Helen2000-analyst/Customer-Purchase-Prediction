@@ -111,3 +111,20 @@ Classification report:
 |------|------|------|------|
 | No Purchase | 0.91 | 0.96 | 0.94 |
 | Purchase | 0.75 | 0.55 | 0.63 |
+
+### Confusion Matrix:
+
+ - True Negatives: 1978
+
+ - False Positives: 77
+
+ - False Negatives: 184
+
+ - True Positives: 227
+|  | Predicted No Purchase | Presicted Purchase |
+|:------|:-------:|------:|
+| Actual No Purchase | 1978 | 77 |
+| Actual Purchase | 184 | 227 |
+
+The model performs very well in identifying non-purchasing visitors, while performance on predicting purchasing visitors is moderate due to class imbalance.
+
