@@ -21,7 +21,7 @@ This project uses historical user session data to predict purchase behavior.
 
 ### Dataset
 
-The dataset used is the  <a href=  "https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Online Shoppers Purchasing Intention Dataset</a>, which contains session-based information about visitors on an e-commerce website.
+The dataset used is the  <a href=  "https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Online Shoppers Purchasing Intention Dataset</a> which contains session-based information about visitors on an e-commerce website.
 
 Key features include:
  - Administrative pages visited
@@ -33,9 +33,38 @@ Key features include:
  - Visitor type
  - Month of visit
 
+The target variable is:
 
+### Revenue
 
+ - 0 → No purchase
 
+ - 1 → Purchase made
+
+The target variable is:
+
+### Project Workflow
+1. Data Cleaning
+
+ - Loaded the dataset using Pandas
+ - Checked for missing values
+ - Converted categorical variables to numerical values
+ - Encoded categorical columns
+
+2. Exploratory Data Analysis
+EDA was performed to understand user behavior patterns.
+
+### Correlation Heatmap
+
+<img width="846" height="621" alt="Screenshot (821)" src="https://github.com/user-attachments/assets/b03ddbc1-2db8-4554-829f-8db478b2289c"> images/correlation_heatmap.png </a>
+
+Using Seaborn and Matplotlib, several visualizations were created to understand patterns in user behavior:
+
+ - Correlation heatmaps
+
+ - Feature distribution analysis
+
+ - Visitor behavior patterns
 
 
 
