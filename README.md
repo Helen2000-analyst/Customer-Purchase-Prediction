@@ -33,8 +33,6 @@ Key features include:
  - Visitor type
  - Month of visit
 
-The target variable is:
-
 ### Revenue
 
  - 0 → No purchase
