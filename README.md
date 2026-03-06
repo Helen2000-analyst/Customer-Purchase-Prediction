@@ -122,12 +122,12 @@ Classification report:
 
  - True Positives: 227
    
-|     | Predicted No Purchase | Presicted Purchase |
+|     | Predicted No Purchase | Predicted Purchase |
 |:------|:-------:|------:|
 | Actual No Purchase | 1978 | 77 |
 | Actual Purchase | 184 | 227 |
 
-The model performs very well in identifying non-purchasing visitors, while performance on predicting purchasing visitors is moderate due to class imbalance.
+The model performs very well in identifying non-purchasing visitors, while performance on predicting purchasing visitors is moderate due to data imbalance.
 
 ### Tools & Technologies
  - Python
