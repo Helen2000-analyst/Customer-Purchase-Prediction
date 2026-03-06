@@ -33,13 +33,15 @@ Key features include:
  - Visitor type
  - Month of visit
 
+
+The target variable is:
+
 ### Revenue
 
  - 0 → No purchase
 
  - 1 → Purchase made
 
-The target variable is:
 
 ### Project Workflow
 1. Data Cleaning
