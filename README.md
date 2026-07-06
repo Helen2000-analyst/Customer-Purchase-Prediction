@@ -1,10 +1,32 @@
 # Online Shoppers Customer Intention Prediction
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+# 🛒 Online Shoppers Purchase Intention Prediction
+
+Machine Learning project that predicts whether an online shopper will make a purchase based on browsing behavior using classification algorithms.
 
 ### About Dataset
-This dataset was sourced from kaggle. It contains 18 columns and 12,330 rows.
+This dataset was sourced from Kaggle. It contains 18 columns and 12,330 rows.
+
+## Table of Contents
+
+- About
+- Project Overview
+- Business Problem
+- Dataset
+- EDA
+- Feature Engineering
+- Models
+- Results
+- Recommendations
+- Conclusion
 
 ### Project Overview
-This project analyzes online shopping behavior and builds machine learning models to predict whether a website visitor will generate revenue (make a purchase) during a browsing session. Understanding purchase intent can help businesses improve marketing strategies, personalize user experiences, and increase conversion rates.
+
+This project analyzes online shopping behavior and develops machine learning models to predict whether a visitor will make a purchase. Understanding purchase intent can help businesses improve marketing strategies, personalize user experiences, and increase conversion rates.
 
 The goal of this project was to develop a predictive model that accurately identifies customers who are more likely to complete a purchase based on their browsing behavior.
 
@@ -58,20 +80,30 @@ EDA was performed to understand user behavior patterns.
 
 <img width="846" height="621" alt="Screenshot (821)" src="https://github.com/user-attachments/assets/b03ddbc1-2db8-4554-829f-8db478b2289c" />
 
-Using Seaborn
+### Confusion Matrix
 
-      bash
-     i conda install seaborn
+<img width="682" height="482" alt="Screenshot (855)" src="https://github.com/user-attachments/assets/c9a3b5c7-a220-46ed-a6d5-92d9e7d641ef" />
 
-     
+### XGB_Boost
 
- and Matplotlib,
+<img width="626" height="469" alt="Screenshot (856)" src="https://github.com/user-attachments/assets/96c2a25f-6416-4afa-acf6-4cb315fe62c4" />
 
-       bash
-      i pip install matplotlib
+### Feature_Importance
 
- 
- several visualizations were created to understand patterns in user behavior:
+<img width="1137" height="606" alt="Screenshot (860)" src="https://github.com/user-attachments/assets/dc2728e8-0e5f-46e6-b03b-0952c040e5f6" />
+
+
+Using Seaborn and Matplotlib,
+
+```bash
+conda install seaborn
+```
+
+```bash
+pip install matplotlib
+```
+
+  several visualizations were created to explore relationships between features and customer purchase behavior.:
 
  - Correlation heatmaps
 
@@ -79,6 +111,15 @@ Using Seaborn
 
  - Visitor behavior patterns
 
+Customer-Purchase-Prediction/
+
+│
+├── data/
+├── notebook/
+├── images/
+├── README.md
+├── requirements.txt
+└── customer_purchase_prediction.ipynb
 3. Feature Engineering
 
  - Encoded categorical variables such as Month, VisitorType, and Weekend
@@ -93,7 +134,7 @@ Using Seaborn
 
   - Logistic Regression
 
-  - Random Forest Classifier
+  - Linear Regression
 
   - XGBoost Classifier
 
@@ -127,7 +168,18 @@ Classification report:
 | Actual No Purchase | 1978 | 77 |
 | Actual Purchase | 184 | 227 |
 
+Logistic Regression generalized better on unseen data and achieved the best balance between precision and recall. Its simplicity also makes it easier to interpret and deploy compared with more complex ensemble models.
+
 The model performs very well in identifying non-purchasing visitors, while performance on predicting purchasing visitors is moderate due to data imbalance.
+
+## Future Work
+
+- Hyperparameter tuning
+- Cross-validation
+- SMOTE for class imbalance
+- Streamlit deployment
+- Feature selection
+- Model monitoring
 
 ### Tools & Technologies
  - Python
@@ -138,6 +190,24 @@ The model performs very well in identifying non-purchasing visitors, while perfo
  - Scikit-learn
  - XGBoost
  - Jupyter Notebook
+
+## Installation
+
+```bash
+git clone https://github.com/Helen2000-analyst/Customer-Purchase-Prediction.git
+
+cd Customer-Purchase-Prediction
+
+pip install -r requirements.txt
+```
+
+python prediction.py
+
+## License
+
+This project is licensed under the MIT License.
+
+
 
 ### Key Insights
 
@@ -280,3 +350,14 @@ This project analyzed online shopper behavior to predict whether a visitor will 
 The analysis revealed that factors such as product page visits, page value, and visitor type significantly influence purchase decisions. These insights demonstrate how machine learning can help e-commerce businesses better understand customer behavior and improve marketing strategies.
 
 Future improvements could include addressing class imbalance, tuning model parameters, and incorporating additional behavioral features to further enhance predictive performance.
+
+
+## Author
+
+Helen Ehinmisan
+
+LinkedIn: www.linkedin.com/in/helen-ehinmisan-5b8b1b332
+
+GitHub: https://github.com/Helen2000-analyst
+
+Email: ehinmisanhelen2000@gmail.com
